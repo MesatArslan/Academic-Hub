@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #1600e3, #24c6dc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.login-box {
+    background: linear-gradient(45deg, #24c6dc,#1600e3 );
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 93%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 16px;
+}
+
+.textbox input::placeholder {
+    color: #ddd;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #1600e3, #24c6dc);
+
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #32CD32, #FFD700);
+
+}
+
+.btn.secondary {
+    background: linear-gradient(45deg, #1600e3, #24c6dc);
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn.secondary:hover {
+    background: linear-gradient(45deg, #32CD32, #FFD700);
+    
+}
+.reset-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 220px;
+    
+}
+
+.reset-link:hover {
+    text-decoration: underline;
+}

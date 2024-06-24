@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="signin-box">
+            <h2>Kayıt Ol</h2>
+            <form action="/register" method="post">
+                <div class="textbox">
+                    <input type="text" placeholder="Kullanıcı Adı" name="username" required>
+                </div>
+                <div class="textbox">
+                    <input type="email" placeholder="Email" name="email" required>
+                </div>
+                <div class="textbox">
+                    <input type="password" placeholder="Şifre" name="password" required>
+                </div>
+                <button type="submit" class="btn">Kayıt Ol</button>
+            </form>
+            <button onclick="location.href='login.html'" class="btn secondary">Giriş Yap</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, #1600e3, #24c6dc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.reset-box {
+    background: linear-gradient(45deg, #24c6dc,#1600e3 );
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 360px;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.reset-box h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.textbox {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.textbox input {
+    width: 99%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 16px;
+}
+
+.textbox input::placeholder {
+    color: #fff;
+}
+
+.textbox input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.btn {
+    background: linear-gradient(45deg, #1600e3,#24c6dc );
+    color: #fff;
+    border: none;
+    padding: 13px 12px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #32CD32, #FFD700);
+}
+
+.btn.secondary {
+    background: linear-gradient(45deg, #1600e3, #24c6dc);
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.btn.secondary:hover {
+    background: linear-gradient(45deg, #32CD32, #FFD700);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

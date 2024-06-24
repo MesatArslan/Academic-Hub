@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şifre Sıfırlama</title>
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <div class="container">
+        <div class="reset-box">
+            <h2>Şifre Sıfırlama</h2>
+            <form action="/reset-password" method="post">
+                <div class="textbox">
+                    <input type="email" placeholder="E-posta Adresi" name="email" required>
+                </div>
+                <button type="submit" class="btn">Şifre Sıfırlama Linki Gönder</button>
+            </form>
+            <button onclick="location.href='login.html'" class="btn secondary">Geri Dön</button>
+        </div>
+    </div>
+</body>
+</html>
