@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(45deg, #1600e3, #24c6dc);
+    background: linear-gradient(45deg, #191919, #a3a3a3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ body {
 }
 
 .reset-box {
-    background: linear-gradient(45deg, #24c6dc,#1600e3 );
+    background: linear-gradient(45deg, #a3a3a3,#191919 );
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -63,7 +63,7 @@ body {
 }
 
 .btn {
-    background: linear-gradient(45deg, #1600e3,#24c6dc );
+    background: linear-gradient(45deg, #191919, #a3a3a3);
     color: #fff;
     border: none;
     padding: 13px 12px;
@@ -78,7 +78,7 @@ body {
 }
 
 .btn.secondary {
-    background: linear-gradient(45deg, #1600e3, #24c6dc);
+    background: linear-gradient(45deg, #191919, #a3a3a3);
     margin-top: 10px;
     transition: background 0.3s ease;
 }
