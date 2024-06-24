@@ -143,7 +143,7 @@ main {
 }
 
 .categories ul li {
-    margin: 10px 0;
+    margin: 20px;
 }
 
 .categories ul li a {
@@ -186,3 +186,21 @@ footer {
     }
 }
 
+@media (min-width: 900px) {
+    .article {
+        width: calc(33.33% - 20px);
+    }
+}
+
+@media (min-width: 450px) {
+    .categories ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .categories ul li {
+        width: calc(50% - 20px);
+        margin: 10px;
+    }
+}
