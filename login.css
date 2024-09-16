@@ -86,3 +86,19 @@ h2 {
 .reset-link:hover {
     text-decoration: underline;
 }
+.top-right-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #191919;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.top-right-link:hover {
+    background-color: #32CD32;
+}
